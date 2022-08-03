@@ -11,16 +11,16 @@ body {
   height: 100%;
 }
 
-#content {
-  display: flex;
-  flex-wrap: wrap;
-}
+/* #content{
+    display: flex;
+    flex-wrap: wrap;
+} */
 
 #loveHeart {
+  float: left;
   width: 670px;
   height: 620px;
   position: relative;
-  float: left;
 }
 
 #garden {
