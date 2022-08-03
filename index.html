@@ -1,140 +1,229 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>朱胜男七夕快乐~</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>朱胜男七夕快乐~</title>
 
-    <style type="text/css">
-      @font-face {
-        font-family: digit;
-        src: url('digital-7_mono.ttf') format('truetype');
-      }
-    </style>
+		<style type="text/css">
+			@font-face {
+				font-family: digit;
+				src: url('digital-7_mono.ttf') format('truetype');
+			}
+		</style>
 
-    <link href="css/default.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
-  </head>
+		<link href="css/default.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/garden.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</head>
 
-  <body>
-    <div id="mainDiv">
-      <div id="content">
-        <div id="loveHeart">
-          <canvas id="garden"></canvas>
-          <div id="words">
-            <div id="messages">
-              遇上你是幸运，爱上你是甜蜜，被你爱是幸福~
-              <div id="elapseClock"></div>
-            </div>
-            <div id="loveu">
-              你是我的初恋，也是我一生中唯一的挚爱<br />
-              <div class="signature">- 你的陈大宝贝</div>
-            </div>
-          </div>
-        </div>
-        <div id="code">
-          <span class="comments">// 2021-10-27</span><br />
-          <span>我们第一次加上微信，那时的我还在沉迷游戏，没重视你，错过了你。</span><br />
-          <span class="comments">// 2022-05-20</span><br />
-          <span>在丁海钧的婚礼上，我们相遇，再次加上微信。</span><br />
-          <span class="comments">// 2022-05-27</span><br />
-          <span>第一个坐我副驾的女生是你。</span><br />
-          <span>第一次和你吃饭,记得是在中南的支雲餐厅。</span><br />
-          <span>第一次和你看电影-《唐顿庄园2》,也是我第一次和女生看电影。</span><br />
-          <span class="comments">// 2022-05-28</span><br />
-          <span>晚上11点多我走在江边，思考着霄媛姐问我的问题"你喜欢姐姐什么？"。</span><br />
-          <span>突然收到你的消息"你们吃完早点回去，我太困了先睡了"。</span><br />
-          <span>就这么简单的几句话，让我明白了一件事-我真的喜欢上你了。</span><br />
-          <span>你给了我别人给不了的感觉。</span><br />
-          <span class="comments">// 2022-05-29</span><br />
-          <span>第一次和你玩桌游，向我的朋友们介绍了你</span><br />
-          <span class="comments">// 2022-05-31</span><br />
-          <span>你居然会给我发六一儿童节的祝福红包~"强宝儿提前六一快乐哈哈哈哈哈"</span><br />
-          <span>没想到还有女生会给我发红包和六一儿童节的祝福，当时真的很激动很开心~</span><br />
-          <span class="comments">// 2022-06-01</span><br />
-          <span>第一次坐上你的副驾，被你接送的感觉还挺不错滴~</span><br />
-          <span>第一次和你夹娃娃，也是我第一次和女生夹娃娃。</span><br />
-          <span>我第一次被女生请吃饭，还是海底捞</span><br />
-          <span class="comments">// 2022-06-03</span><br />
-          <span>第一次和你在江边散步</span><br />
-          <span>记得你脚还起泡了，后来才知道你还在大姨妈期间，真的有点心疼。</span><br />
-          <span>你说在你的内心我是个软妹，你还说喜欢喜欢，当时我感觉自己的脸都红了，你还想捏捏我的脸。</span><br />
-          <span class="comments">// 2022-06-06</span><br />
-          <span>大早上收到你的微信，昨晚梦见在捏我的脸，被你潦到了呀</span><br />
-          <span>知道一个好好听的称呼-猪猪</span><br />
-          <span class="comments">// 2022-06-08</span><br />
-          <span>和你一起去麦当劳吃儿童餐，感觉你像个小女孩一样，喜欢送的玩具，好可爱。</span><br />
-          <span>没忍住第一次摸了摸你头还有辫子。</span><br />
-          <span>一起去看了电影-《密室逃生2》。没想到你愿意陪我看你已经看过的电影</span><br />
-          <span class="comments">// 2022-06-12</span><br />
-          <span>第一次和你吃早餐，还是步行去的。</span><br />
-          <span>在路上一直想牵你的手，到最后，实在忍不住了，才牵了一秒，当时真的很紧张很紧张。</span><br />
-          <span class="comments">// 2022-06-13</span><br />
-          <span>你说"我一个人能抵你们一个群的那几个"</span><br />
-          <!-- <span class="comments">/**</span><br />
-          <span class="space" /><span class="comments">*2022-08-04</span><br />
-          <span class="space" /><span class="comments">*/</span><br />
-          Boy name = <span class="keyword">Mr</span> Ye<br />
-          Girl name = <span class="keyword">Mrs</span> Luo<br />
-          <span class="comments">// Fall in love river. </span><br />
-          The boy love the girl;<br />
-          <span class="comments">// They love each other.</span><br />
-          The girl loved the boy;<br />
-          <span class="comments">// AS time goes on.</span><br />
-          The boy can not be separated the girl;<br />
-          <span class="comments">// At the same time.</span><br />
-          The girl can not be separated the boy;<br />
-          <span class="comments">// Both wind and snow all over the sky.</span><br />
-          <span class="comments">// Whether on foot or 5 kilometers.</span><br />
-          <span class="keyword">The boy</span> very <span class="keyword">happy</span>;<br />
-          <span class="keyword">The girl</span> is also very <span class="keyword">happy</span>;<br />
-          <span class="placeholder" /><span class="comments">// Whether it is right now</span><br />
-          <span class="placeholder" /><span class="comments">// Still in the distant future.</span><br />
-          <span class="placeholder" />The boy has but one dream;<br />
-          <span class="comments">// The boy wants the girl could well have been happy.</span><br />
-          <br />
-          <br />
-          I want to say:<br />
-          Baby, I love you forever;<br /> -->
-        </div>
-      </div>
-      <div id="copyright">Copyright © 2022 <a href="https://yimoxiaohan.github.io">https://yimoxiaohan.github.io/</a> 2022-2022</div>
-    </div>
+	<body>
+		<div id="mainDiv">
+			<div id="content">
+				<div id="loveHeart">
+					<canvas id="garden"></canvas>
+					<div id="words">
+						<div id="messages">
+							遇上你是幸运，爱上你是甜蜜，被你爱是幸福~
+							<div id="elapseClock"></div>
+						</div>
+						<div id="loveu">
+							你是我一生中唯一的挚爱。<br />
+							<div class="signature">- 你的陈大宝贝</div>
+						</div>
+					</div>
+				</div>
+				<div id="code">
+					<span class="comments">/**</span><br />
+					<span class="space" /><span class="comments">* 心动日记</span><br />
+					<span class="space" /><span class="comments">*/</span><br />
+					<span class="comments">// 2021-10-27</span><br />
+					<span>我们第一次加微信聊天</span><br />
+					<span>那时的我还在沉迷游戏</span><br />
+					<span>而错过了你</span><br />
+					<span class="comments">// 2022-05-20</span><br />
+					<span>我们第一次相遇</span><br />
+					<span>在丁海钧的婚礼上</span><br />
+					<span>再次加上微信</span><br />
+					<span class="comments">// 2022-05-27</span><br />
+					<span>我们第一次吃饭,记得是在中南的支雲餐厅</span><br />
+					<span>我们第一次看电影-《唐顿庄园2》</span><br />
+					<span>第一个和我看电影的女生是你</span><br />
+					<span>第一个坐我副驾的女生是你</span><br />
+					<span class="comments">// 2022-05-28</span><br />
+					<span>晚上11点多我走在江边,突然收到你的消息</span><br />
+					<span>"你们吃完早点回去，我太困了先睡了"</span><br />
+					<span>就这么简单的几句话</span><br />
+					<span>让我明白了一件事-我真的喜欢上你了</span><br />
+					<span>你给了我别人给不了的感觉</span><br />
+					<span class="comments">// 2022-05-29</span><br />
+					<span>我们一起玩桌游，向朋友们介绍了你</span><br />
+					<span>我第一次玩炸金花，运气这么好，你就是我的lucky girl~</span><br />
+					<span class="comments">// 2022-05-31</span><br />
+					<span>收到了你的六一儿童节红包</span><br />
+					<span>"强宝儿提前六一快乐哈哈哈哈哈"</span><br />
+					<span>真的很激动很开心~</span><br />
+					<span class="comments">// 2022-06-01</span><br />
+					<span>第一次坐你的副驾，被你接送</span><br />
+					<span>我们第一次夹娃娃</span><br />
+					<span>我们一起吃海底捞</span><br />
+					<span>第一个和我夹娃娃的女生是你</span><br />
+					<span class="comments">// 2022-06-03</span><br />
+					<span>早上5点钟将你吵醒，明明该道歉的人是我，但你居然先说抱歉</span><br />
+					<span>我们第一次在江边散步。</span><br />
+					<span>记得你脚还起泡了，后来才知道你还来大姨妈了，真的有点心疼</span><br />
+					<span>在你的内心我是个撒娇软妹，你还很喜欢，感觉自己的脸都红了，你还想捏捏我的脸</span><br />
+					<span class="comments">// 2022-06-04</span><br />
+					<span>我们一起去丁海钧家玩</span><br />
+					<span>虽然你这次没有一起玩桌游，但有你在身边就好</span><br />
+					<span>晚上真的去参加70大寿的家宴，虽然只是以见我的名义来办70大寿，但真的有点生气又有点紧张，也不和你商量商量</span><br />
+					<span class="comments">// 2022-06-06</span><br />
+					<span>大早上收到你的微信，昨晚梦见在捏我的脸，被你撩到了</span><br />
+					<span>知道一个好好听的称呼-猪猪，以后就叫你猪猪啦~</span><br />
+					<span class="comments">// 2022-06-07</span><br />
+					<span>你说叫我陈大宝贝</span><br />
+					<span class="comments">// 2022-06-08</span><br />
+					<span>我们一起吃麦当劳儿童餐，感觉你像个小女孩一样，喜欢送的玩具，好可爱</span><br />
+					<span>没忍住第一次摸了摸你头还有辫子</span><br />
+					<span>我们一起去看了电影-《密室逃生2》</span><br />
+					<span>你愿意陪我看你已经看过的电影，真的很开心</span><br />
+					<span class="comments">// 2022-06-12</span><br />
+					<span>我们第一次步行去吃早餐</span><br />
+					<span>一直想牵你的手，都快到家了，才鼓起勇气牵起了你的手</span><br />
+					<span>真的很紧张很紧张，所以就只牵了短短一秒钟就松开了</span><br />
+					<span class="comments">// 2022-06-13</span><br />
+					<span>你说"我一个人能抵你们一个群的那几个"-来自你的明示</span><br />
+					<span>好想和你在一起。</span><br />
+					<span class="comments">// 2022-06-14</span><br />
+					<span>你给我发了“爱你，挂了”的表情包，要是再不懂，我就是大傻子啦~</span><br />
+					<span>决定了明天表白！订花！</span><br />
+					<span class="comments">// 2022-06-15</span><br />
+					<span>表白成功啦！我们在一起啦！好激动，睡不着，有种做梦的感觉</span><br />
+					<span class="comments">// 2022-06-15</span><br />
+					<span>昨晚是一场梦嘛，如果是梦，我希望永远都不要醒来。</span><br />
+					<span>我们第一次拥抱，十指相扣地散步，让我感觉这不是梦，是真实的，感觉我好幸运。</span><br />
+					<span class="comments">// 2022-06-17</span><br />
+					<span>我们一起追剧</span><br />
+					<span class="comments">// 2022-06-19</span><br />
+					<span>你第一次主动牵我的手</span><br />
+					<span class="comments">// 2022-06-26</span><br />
+					<span>第一次亲了你的脸~</span><br />
+					<span class="comments">// 2022-07-01</span><br />
+					<span>初吻啦~</span><br />
+					<span class="comments">// 2022-07-02</span><br />
+					<span>我们一起去常州玩。</span><br />
+					<span>第一次住一间房间，还睡在一张床上。</span><br />
+					<span class="comments">// 2022-07-10</span><br />
+					<span>我们一起回我奶奶家，我比你还紧张呢</span><br />
+					<span class="comments">// 2022-07-15</span><br />
+					<span>我们一起回我外婆家。</span><br />
+					<span class="comments">// 2022-07-16</span><br />
+					<span>第一次和你过生日，订了猪猪专属蛋糕，希望可以陪你度过以后的每一个生日。</span><br />
+					<span>明明是你生日，你却送我情侣装，还为送我一套衣服裤子，真的好爱你啊</span><br />
+					<span>好想也给你买一套衣服裤子。</span><br />
+					<span class="comments">// 2022-07-17</span><br />
+					<span>又送我情侣鞋，好感动。</span><br />
+					<span class="comments">// 2022-07-20</span><br />
+					<span>第一次去你家吃饭</span><br />
+					<span>突然叫我去，搞得我措手不及，激动紧张</span><br />
+					<span class="comments">// 2022-07-22</span><br />
+					<span>又叫我去你家吃饭耶~开心</span><br />
+					<span class="comments">// 2022-07-23</span><br />
+					<span>我们一起去苏州，参加你大学室友的婚礼</span><br />
+					<span>没有收我请客的红包，还在室友面前说是我请的</span><br />
+					<span>一半的份子钱也不让出</span><br />
+					<span>这么好的你我一定会好好珍惜</span><br />
+					<span class="comments">// 2022-07-24</span><br />
+					<span>看见你当伴娘</span><br />
+					<span>上台拿捧花的时候</span><br />
+					<span>就在想我们会有未来嘛</span><br />
+					<span class="comments">// 2022-07-25</span><br />
+					<span>我忍不住问了</span><br />
+					<span>你的未来有我嘛</span><br />
+					<span>当你毫不犹豫地说出"有我"的时候</span><br />
+					<span>那一刻仿佛世界只有你和我</span><br />
+					<span>一切都安静了</span><br />
+					<span>我的心也静了下来</span><br />
+					<span>这种感觉真的太美好了</span><br />
+					<span>你就是我的唯一</span><br />
+					<span class="comments">// 2022-07-26</span><br />
+					<span>穿着你送的衣服和裤子</span><br />
+					<span>看着你在厨房忙碌的身影</span><br />
+					<span>感觉到幸福和幸运伴随着我</span><br />
+					<span>回头朝我笑起来的那一刻，真的好美</span><br />
+					<span>一定会尽自己最大的努力给你想要的幸福</span><br />
+					<span class="comments">// 2022-07-27</span><br />
+					<span>知道了我在你那里是特别的存在</span><br />
+					<span>原来你也天天想我呀</span><br />
+					<span class="comments">// 2022-07-28</span><br />
+					<span>你说什么样的我你都爱耶</span><br />
+					<span>加班到6点多，说了去你家吃饭，明明晚了，我问自己</span><br />
+					<span>"为什么还是想去"</span><br />
+					<span>"因为那里有我想见的人啊"</span><br />
+					<span>我有两个愿望：</span><br />
+					<span>你在我身边</span><br />
+					<span>我在你身边</span><br />
+					<span class="comments">// 2022-07-29</span><br />
+					<span>做了一件蠢事，让你心烦了</span><br />
+					<span>以后买给你用的东西，一定跟你商量</span><br />
+					<span class="comments">// 2022-07-30</span><br />
+					<span>见你家亲戚，还加入家人群，好开心</span><br />
+					<span>跟舅舅们聊天，很开心想喝一杯</span><br />
+					<span>但你没让，看见你关心我的样子</span><br />
+					<span>一定会好好珍惜你，爱护你，不让你受一点委屈</span><br />
+					<span class="comments">// 2022-07-31</span><br />
+					<span>你第一次主动吻我</span><br />
+					<span>我的人我的心都是你的</span><br />
+					<span>向你吐露心声</span><br />
+					<span>我最大的毛病就是期望太多</span><br />
+					<span>但你愿意陪我做浪漫的事</span><br />
+					<span class="comments">// 2022-08-01</span><br />
+					<span>你说"想让你也像我一样开心满足呀"</span><br />
+					<span>简简单单，单单纯纯的你真的好爱</span><br />
+					<span class="comments">// 2022-08-02</span><br />
+					<span>第一次煮红汤面</span><br />
+					<span>虽然做的不好，但你全部都吃完了，好感动</span><br />
+					<span class="keyword">我们的幸福生活还在继续~</span><br />
+					<span class="keyword">最后我想说</span><br />
+					<span class="keyword">猪猪大宝贝~我爱你</span><br />
+				</div>
+			</div>
+			<div id="copyright">Copyright © 2022 <a href="https://yimoxiaohan.github.io">https://yimoxiaohan.github.io/</a> 2022-2022</div>
+		</div>
 
-    <script type="text/javascript">
-      var offsetX = $('#loveHeart').width() / 2
-      var offsetY = $('#loveHeart').height() / 2 - 55
-      var together = new Date()
-      together.setFullYear(2022, 5, 15)
-      together.setHours(20)
-      together.setMinutes(34)
-      together.setSeconds(13)
-      together.setMilliseconds(14)
+		<script type="text/javascript">
+			var offsetX = $('#loveHeart').width() / 2
+			var offsetY = $('#loveHeart').height() / 2 - 55
+			var together = new Date()
+			together.setFullYear(2022, 5, 15)
+			together.setHours(20)
+			together.setMinutes(34)
+			together.setSeconds(13)
+			together.setMilliseconds(14)
 
-      if (!document.createElement('canvas').getContext) {
-        var msg = document.createElement('div')
-        msg.id = 'errorMsg'
-        msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"
-        document.body.appendChild(msg)
-        $('#code').css('display', 'none')
-        $('#copyright').css('position', 'absolute')
-        $('#copyright').css('bottom', '10px')
-        document.execCommand('stop')
-      } else {
-        startHeartAnimation()
+			if (!document.createElement('canvas').getContext) {
+				var msg = document.createElement('div')
+				msg.id = 'errorMsg'
+				msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"
+				document.body.appendChild(msg)
+				$('#code').css('display', 'none')
+				$('#copyright').css('position', 'absolute')
+				$('#copyright').css('bottom', '10px')
+				document.execCommand('stop')
+			} else {
+				startHeartAnimation()
 
-        timeElapse(together)
-        setInterval(function () {
-          timeElapse(together)
-        }, 500)
-        adjustCodePosition()
-        // $('#code').css('display', 'none')
-        // setTimeout(function () {
-        //   $('#code').css('display', 'block')
-        //   $('#code').typewriter()
-        // }, 7000)
-      }
-    </script>
-  </body>
+				timeElapse(together)
+				setInterval(function () {
+					timeElapse(together)
+				}, 500)
+				adjustCodePosition()
+				$('#code').css('display', 'none')
+				setTimeout(function () {
+					$('#code').css('display', 'block')
+					$('#code').typewriter()
+				}, 9000)
+			}
+		</script>
+	</body>
 </html>
