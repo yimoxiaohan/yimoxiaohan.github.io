@@ -75,13 +75,14 @@ body {
 }
 
 #code {
-  float: left;
-  width: 440px;
+  /* float: left; */
+  width: 520px;
   margin-top: 60px !important;
+  margin-bottom: 60px !important;
   min-height: 400px;
   color: #333;
   font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', 'Courier New', 'sans-serif';
-  font-size: 14px;
+  font-size: 34px;
 }
 
 #code .string {

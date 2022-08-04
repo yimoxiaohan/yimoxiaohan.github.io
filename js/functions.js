@@ -20,7 +20,7 @@ $(function () {
   garden = new Garden(gardenCtx, gardenCanvas)
 
   // $("#content").css("width", $loveHeart.width() + $("#code").width());
-  $('#content').css('height', $loveHeart.height() + $('#code').height())
+  // $('#content').css('height', $loveHeart.height() + $('#code').height())
   $('#content').css('margin-top', Math.max(($window.height() - $('#content').height()) / 5, 21))
 //   $('#content').css('margin-left', Math.max(($window.width() - $('#content').width()) / 5, 21))
 
