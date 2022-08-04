@@ -94,8 +94,7 @@ function startHeartAnimation() {
         if (progress >= str.length) {
           clearInterval(timer)
         }
-     
-       
+
         // document.body.scrollTop += 50
       }, 75)
     })
