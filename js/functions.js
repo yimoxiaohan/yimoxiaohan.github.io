@@ -20,9 +20,9 @@ $(function () {
   garden = new Garden(gardenCtx, gardenCanvas)
 
   // $("#content").css("width", $loveHeart.width() + $("#code").width());
-  // $('#content').css('height', $loveHeart.height() + $('#code').height())
+  $('#content').css('height', $loveHeart.height() + $('#code').height())
   $('#content').css('margin-top', Math.max(($window.height() - $('#content').height()) / 5, 21))
-//   $('#content').css('margin-left', Math.max(($window.width() - $('#content').width()) / 5, 21))
+  //   $('#content').css('margin-left', Math.max(($window.width() - $('#content').width()) / 5, 21))
 
   // renderLoop
   setInterval(function () {
@@ -75,6 +75,7 @@ function startHeartAnimation() {
 
 ;(function ($) {
   $.fn.typewriter = function () {
+    let scrollTop = 0
     this.each(function () {
       var $ele = $(this),
         str = $ele.html(),
@@ -86,11 +87,16 @@ function startHeartAnimation() {
           progress = str.indexOf('>', progress) + 1
         } else {
           progress++
+          // scrollTop += 50
+          // $('html, body').animate({ scrollTop }, 1000)
         }
         $ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''))
         if (progress >= str.length) {
           clearInterval(timer)
         }
+     
+       
+        // document.body.scrollTop += 50
       }, 75)
     })
     return this
