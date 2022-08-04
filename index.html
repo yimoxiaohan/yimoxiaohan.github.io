@@ -1,289 +1,289 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>猪猪大宝贝~七夕快乐~</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>猪猪大宝贝~七夕快乐~</title>
 
-    <style type="text/css">
-      @font-face {
-        font-family: digit;
-        src: url('digital-7_mono.ttf') format('truetype');
-      }
-    </style>
+		<style type="text/css">
+			@font-face {
+				font-family: digit;
+				src: url('digital-7_mono.ttf') format('truetype');
+			}
+		</style>
 
-    <link href="css/default.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
-  </head>
+		<link href="css/default.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/garden.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</head>
 
-  <body>
-    <div id="mainDiv">
-      <div id="content">
-        <div id="loveHeart">
-          <canvas id="garden"></canvas>
-          <div id="words">
-            <div id="messages">
-              遇上你是幸运，爱上你是甜蜜，被你爱是幸福~
-              <div id="elapseClock"></div>
-            </div>
-            <div id="loveu">
-              与你相爱是今生最大的幸福~<br />
-              <div class="signature">- 你的陈大宝贝</div>
-            </div>
-          </div>
-        </div>
-        <div id="code">
-          <span class="comments">/**</span><br />
-          <span class="space" /><span class="comments">* 心动女孩</span><br />
-          <span class="space" /><span class="comments">*/</span><br />
-          <span class="keyword">The young lady was awesome!</span><br />
-          <span class="keyword">姓名：</span>朱胜男<br />
-          <span class="keyword">性格：</span>外表强势内心柔软、傲娇<br />
-          <span class="keyword">阳历生日：</span>1996.8.2<br />
-          <span class="keyword">农历生日：</span>六月十八<br />
-          <span class="keyword">毕业院校：</span>无锡太湖学院<br />
-          <span class="keyword">口味：</span>喜欢酸的（柠檬味），苦的（巧克力），不喜欢太甜的，非常能吃辣，喜欢海底捞的番茄锅底<br />
-          <span class="keyword">喜欢的主食：</span>面食<br />
-          <span class="keyword">喜欢/吃过的外卖：</span>牛肉米粉、肉酱拌面、鸭血粉丝汤<br />
-          <span class="keyword">爱好：</span>Gon的旱獭、追剧、看综艺------能不动就不动<br />
-          <span class="keyword">喜欢/看过的剧：</span>摩登家庭、怪奇物语、9号秘事、黑镜<br />
-          <span class="keyword">喜欢/看过的综艺：</span>向往的生活、极限挑战、脱口秀专场<br />
-          <span class="keyword">喜欢的明星：</span>尤长靖<br />
-          <span class="keyword">闹钟：</span>7:20起床；8:15上班<br />
-          <span class="keyword">午休：</span>12:00~13:30<br />
-          <span class="keyword">大姨妈期间可以吃的水果：</span>冬枣、橘子、荔枝、龙眼、樱桃、桃子、苹果<br />
-          <span class="keyword">喜欢你的一切，无论什么，全部都喜欢</span><br /><br />
-          <span class="comments">/**</span><br />
-          <span class="space" /><span class="comments">* 心动日记</span><br />
-          <span class="space" /><span class="comments">*/</span><br />
-          <span class="comments">// 2021-10-27</span><br />
-          <span>我们第一次加微信聊天</span><br />
-          <span>那时的我还在沉迷游戏</span><br />
-          <span>而错过了你</span><br />
-          <span class="comments">// 2022-05-20</span><br />
-          <span>在丁海钧的婚礼上</span><br />
-          <span>我们第一次相遇</span><br />
-          <span>我们再次加上微信</span><br />
-          <span class="comments">// 2022-05-27</span><br />
-          <span>我们第一次吃饭</span><br />
-          <span>记得是在中南的支雲餐厅</span><br />
-          <span>我们第一次看电影《唐顿庄园2》</span><br />
-          <span>第一个和我看电影的女生是你</span><br />
-          <span>第一个坐我副驾的女生是你</span><br />
-          <span class="comments">// 2022-05-28</span><br />
-          <span>晚上11点多我走在江边</span><br />
-          <span>突然收到你的消息</span><br />
-          <span>"你们吃完早点回去，我太困了先睡了"</span><br />
-          <span>就这么简单的几句话</span><br />
-          <span>你给了我别人给不了的感觉</span><br />
-          <span>我真的喜欢上你了</span><br />
-          <span class="comments">// 2022-05-29</span><br />
-          <span>我们一起玩桌游，向朋友们介绍你</span><br />
-          <span>我第一次玩炸金花，运气这么好</span><br />
-          <span>你就是我的lucky girl~</span><br />
-          <span class="comments">// 2022-05-31</span><br />
-          <span>收到了你的六一儿童节红包</span><br />
-          <span>"强宝儿提前六一快乐哈哈哈哈哈"</span><br />
-          <span>很激动很开心~</span><br />
-          <span class="comments">// 2022-06-01</span><br />
-          <span>第一次坐你的副驾，被你接送</span><br />
-          <span>我们第一次夹娃娃</span><br />
-          <span>我们一起吃海底捞</span><br />
-          <span>第一个和我夹娃娃的女生是你</span><br />
-          <span class="comments">// 2022-06-03</span><br />
-          <span>早上5点钟将你吵醒</span><br />
-          <span>明明该道歉的人是我</span><br />
-          <span>但你居然先说抱歉</span><br />
-          <span>这么好的女孩儿被我遇见了</span><br />
-          <span>我们第一次在江边散步</span><br />
-          <span>记得你脚还起泡</span><br />
-          <span>后来知道你还来大姨妈了</span><br />
-          <span>真的有点心疼</span><br />
-          <span>在你的内心我是个撒娇软妹，你还很喜欢，感觉自己的脸都红了</span><br />
-          <span>你还想捏捏我的脸，有种被调戏的感觉</span><br />
-          <span class="comments">// 2022-06-04</span><br />
-          <span>我们又一起去丁海钧家玩</span><br />
-          <span>虽然你这次没有一起玩桌游，但有你在身边就好</span><br />
-          <span>晚上真的去参加你们的家宴，虽然只是以见我的名义来办70大寿</span><br />
-          <span>有点生气又有点紧张，也不和你商量商量</span><br />
-          <span class="comments">// 2022-06-06</span><br />
-          <span>大早上收到你的微信，昨晚梦见在捏我的脸，被你撩到了</span><br />
-          <span>知道一个好好听的称呼-猪猪，以后就叫你猪猪啦~</span><br />
-          <span class="comments">// 2022-06-07</span><br />
-          <span>你说叫我陈大宝贝耶~</span><br />
-          <span class="comments">// 2022-06-08</span><br />
-          <span>我们一起吃麦当劳儿童餐</span><br />
-          <span>感觉你像个小女孩一样，喜欢送的玩具，好可爱</span><br />
-          <span>没忍住第一次摸了摸你头还有辫子</span><br />
-          <span>我们又一起看电影《密室逃生2》</span><br />
-          <span>你愿意陪我看你已经看过的电影，真的很开心</span><br />
-          <span class="comments">// 2022-06-12</span><br />
-          <span>我们第一次步行去吃早餐</span><br />
-          <span>一直想牵你的手</span><br />
-          <span>到最后才鼓起勇气牵起了你的手</span><br />
-          <span>真的很紧张很紧张</span><br />
-          <span>只牵了短短一秒钟就松开了</span><br />
-          <span class="comments">// 2022-06-13</span><br />
-          <span>"我一个人能抵你们一个群的那几个"</span><br />
-          <span>好想和你在一起</span><br />
-          <span class="comments">// 2022-06-14</span><br />
-          <span>收到"爱你，挂了"的表情包</span><br />
-          <span>要是再不懂，我就是大傻子啦~</span><br />
-          <span>决定了明天表白!订花!</span><br />
-          <span class="comments">// 2022-06-15</span><br />
-          <span>表白成功啦!</span><br />
-          <span>我们在一起啦!</span><br />
-          <span>好激动，睡不着，有种做梦的感觉</span><br />
-          <span class="comments">// 2022-06-16</span><br />
-          <span>昨晚是一场梦嘛</span><br />
-          <span>如果是梦，我希望永远都不要醒来</span><br />
-          <span>我们第一次拥抱</span><br />
-          <span>十指相扣地散步</span><br />
-          <span>让我感觉这不是梦，是真实的</span><br />
-          <span>我感觉自己好幸运能遇见你</span><br />
-          <span class="comments">// 2022-06-17</span><br />
-          <span>我们一起追剧</span><br />
-          <span class="comments">// 2022-06-19</span><br />
-          <span>你第一次主动牵我的手</span><br />
-          <span class="comments">// 2022-06-26</span><br />
-          <span>第一次亲了你的脸~</span><br />
-          <span class="comments">// 2022-07-01</span><br />
-          <span>我们初吻啦~</span><br />
-          <span class="comments">// 2022-07-02</span><br />
-          <span>我们一起去常州恐龙园玩</span><br />
-          <span>我们第一次住在一起</span><br />
-          <span class="comments">// 2022-07-10</span><br />
-          <span>我们一起回我奶奶家，我比你还紧张呢</span><br />
-          <span class="comments">// 2022-07-15</span><br />
-          <span>我们一起回我外婆家</span><br />
-          <span>我爸专门为你做了从来做过的菜</span><br />
-          <span>我都有点吃醋了</span><br />
-          <span class="comments">// 2022-07-16</span><br />
-          <span>第一次和你过生日</span><br />
-          <span>订了猪猪专属蛋糕</span><br />
-          <span>希望可以陪你度过以后的每一个生日</span><br />
-          <span>明明是你生日</span><br />
-          <span>你却送我情侣装还有一套衣服</span><br />
-          <span>我也好想给你买一套衣服啊</span><br />
-          <span class="comments">// 2022-07-17</span><br />
-          <span>又送我情侣鞋，好感动</span><br />
-          <span class="comments">// 2022-07-20</span><br />
-          <span>第一次去你家吃饭</span><br />
-          <span>突然叫我去，搞得我有点措手不及，激动紧张</span><br />
-          <span class="comments">// 2022-07-22</span><br />
-          <span>"每天都不错"</span><br />
-          <span>是跟我在一起的每一天嘛</span><br />
-          <span>又去你家吃饭耶~开心</span><br />
-          <span class="comments">// 2022-07-23</span><br />
-          <span>我们一起去苏州参加你大学室友的婚礼</span><br />
-          <span>没有收我请客的红包，还在室友面前说是我请的</span><br />
-          <span>一半的份子钱也不让出</span><br />
-          <span>我是有多幸运才能遇见这么好的你</span><br />
-          <span class="comments">// 2022-07-24</span><br />
-          <span>看见你当伴娘</span><br />
-          <span>上台拿捧花的时候</span><br />
-          <span>就在想我们会有未来嘛</span><br />
-          <span class="comments">// 2022-07-25</span><br />
-          <span>我忍不住问了</span><br />
-          <span>"你的未来有我嘛"</span><br />
-          <span>当你毫不犹豫地说出"有我"的时候</span><br />
-          <span>那一刻仿佛世界只有你和我</span><br />
-          <span>一切都安静了</span><br />
-          <span>我的心也静了下来</span><br />
-          <span>这种感觉真的太美好了</span><br />
-          <span>你是我的初恋也是我的唯一</span><br />
-          <span class="comments">// 2022-07-26</span><br />
-          <span>穿着你送的衣服和裤子</span><br />
-          <span>看着你在厨房忙碌的身影</span><br />
-          <span>感觉到幸福和幸运伴随着我</span><br />
-          <span>回头朝我笑起来的那一刻，真的好美</span><br />
-          <span>一定会尽自己最大的努力给你想要的幸福</span><br />
-          <span class="comments">// 2022-07-27</span><br />
-          <span>原来我在你那里是特别的存在，你也天天想我呀</span><br />
-          <span class="comments">// 2022-07-28</span><br />
-          <span>"什么样的我你都爱耶"</span><br />
-          <span>听见你说这句话，我想立刻马上抱住你</span><br />
-          <span>要去你家吃饭，但加班到6点多</span><br />
-          <span>明明晚了，但还是去了</span><br />
-          <span>"为什么还是想去"</span><br />
-          <span>"因为那里有我想见的人啊"</span><br />
-          <span>我有两个愿望：你在我身边，我在你身边</span><br />
-          <span class="comments">// 2022-07-29</span><br />
-          <span>让你心烦不开心了</span><br />
-          <span>都怪我没事找事</span><br />
-          <span>看见你不开心，我也不开心</span><br />
-          <span>以后买给你用的东西，一定会跟你商量</span><br />
-          <span class="comments">// 2022-07-30</span><br />
-          <span>见你家亲戚，还加入家人群</span><br />
-          <span>跟舅舅们聊天很愉快，好想喝一杯</span><br />
-          <span>但你没让，感受到你对我的关心和在乎</span><br />
-          <span>一定会好好珍惜你，爱护你，不让你受一点委屈</span><br />
-          <span class="comments">// 2022-07-31</span><br />
-          <span>你第一次主动吻我</span><br />
-          <span>我的人我的心都是你的</span><br />
-          <span>向你吐露心声</span><br />
-          <span>我最大的毛病就是期待太多</span><br />
-          <span>但你愿意陪我做浪漫的事，真的好幸福</span><br />
-          <span class="comments">// 2022-08-01</span><br />
-          <span>"想让你也像我一样开心满足呀"</span><br />
-          <span>简简单单，单单纯纯的你让我好爱</span><br />
-          <span class="comments">// 2022-08-02</span><br />
-          <span>第一次煮红汤面给你吃</span><br />
-          <span>虽然做的不好，但你还是全部吃完了</span><br />
-          <span>我会努力学做饭的</span><br />
-          <span>送我情侣杯耶~</span><br />
-          <span class="comments">// 2022-08-04</span><br />
-          <span>今天我们第一次过七夕~</span><br />
-          <span>猪猪大宝贝~七夕快乐~</span><br />
-          <span class="keyword">我们的爱情故事还在继续~</span><br />
-          <span class="keyword">我希望在我坚定地选择你时</span><br />
-          <span class="keyword">你也能坚定地选择我</span><br />
-          <span class="keyword">希望这次不是我想得美</span><br />
-          <span class="keyword">最后我想对你说：</span><br />
-          <span class="keyword">"猪猪大宝贝~我爱你"</span><br />
-          <br /><br /><br />
-        </div>
-      </div>
-      <!-- <div id="copyright">Copyright © 2022 <a href="https://yimoxiaohan.github.io">https://yimoxiaohan.github.io/</a> 2022-2022</div> -->
-    </div>
+	<body>
+		<div id="mainDiv">
+			<div id="content">
+				<div id="loveHeart">
+					<canvas id="garden"></canvas>
+					<div id="words">
+						<div id="messages">
+							遇上你是幸运，爱上你是甜蜜，被你爱是幸福~
+							<div id="elapseClock"></div>
+						</div>
+						<div id="loveu">
+							与你相爱是今生最大的幸福~<br />
+							<div class="signature">- 你的陈大宝贝</div>
+						</div>
+					</div>
+				</div>
+				<div id="code">
+					<span class="comments">/**</span><br />
+					<span class="space" /><span class="comments">* 心动女孩</span><br />
+					<span class="space" /><span class="comments">*/</span><br />
+					<span class="keyword">The young lady was awesome!</span><br />
+					<span class="keyword">姓名：</span>朱胜男<br />
+					<span class="keyword">性格：</span>外表强势内心柔软、傲娇<br />
+					<span class="keyword">阳历生日：</span>1996.8.2<br />
+					<span class="keyword">农历生日：</span>六月十八<br />
+					<span class="keyword">毕业院校：</span>无锡太湖学院<br />
+					<span class="keyword">口味：</span>喜欢酸的（柠檬味），苦的（巧克力），不喜欢太甜的，喜欢海底捞的番茄锅底<br />
+					<span class="keyword">喜欢的主食：</span>面食<br />
+					<span class="keyword">喜欢/吃过的外卖：</span>牛肉米粉、肉酱拌面、鸭血粉丝汤<br />
+					<span class="keyword">爱好：</span>Gon的旱獭、追剧、看综艺------能不动就不动<br />
+					<span class="keyword">喜欢/看过的剧：</span>摩登家庭、怪奇物语、9号秘事、黑镜<br />
+					<span class="keyword">喜欢/看过的综艺：</span>向往的生活、极限挑战、脱口秀专场<br />
+					<span class="keyword">喜欢的明星：</span>尤长靖<br />
+					<span class="keyword">闹钟：</span>7:20起床；8:15上班<br />
+					<span class="keyword">午休：</span>12:00~13:30<br />
+					<span class="keyword">大姨妈期间可以吃的水果：</span>冬枣、橘子、荔枝、龙眼、樱桃、桃子、苹果<br />
+					<span class="keyword">喜欢你的一切，无论什么，全部都喜欢</span><br /><br />
+					<span class="comments">/**</span><br />
+					<span class="space" /><span class="comments">* 心动日记</span><br />
+					<span class="space" /><span class="comments">*/</span><br />
+					<span class="comments">// 2021-10-27</span><br />
+					<span>我们第一次加微信聊天</span><br />
+					<span>那时的我还在沉迷游戏</span><br />
+					<span>而错过了你</span><br />
+					<span class="comments">// 2022-05-20</span><br />
+					<span>在丁海钧的婚礼上</span><br />
+					<span>我们第一次相遇</span><br />
+					<span>我们再次加上微信</span><br />
+					<span class="comments">// 2022-05-27</span><br />
+					<span>我们第一次吃饭</span><br />
+					<span>记得是在中南的支雲餐厅</span><br />
+					<span>我们第一次看电影《唐顿庄园2》</span><br />
+					<span>第一个和我看电影的女生是你</span><br />
+					<span>第一个坐我副驾的女生是你</span><br />
+					<span class="comments">// 2022-05-28</span><br />
+					<span>晚上11点多我走在江边</span><br />
+					<span>突然收到你的消息</span><br />
+					<span>"你们吃完早点回去，我太困了先睡了"</span><br />
+					<span>就这么简单的几句话</span><br />
+					<span>你给了我别人给不了的感觉</span><br />
+					<span>我真的喜欢上你了</span><br />
+					<span class="comments">// 2022-05-29</span><br />
+					<span>我们一起玩桌游，向朋友们介绍你</span><br />
+					<span>我第一次玩炸金花，运气这么好</span><br />
+					<span>你就是我的lucky girl~</span><br />
+					<span class="comments">// 2022-05-31</span><br />
+					<span>收到了你的六一儿童节红包</span><br />
+					<span>"强宝儿提前六一快乐哈哈哈哈哈"</span><br />
+					<span>很激动很开心~</span><br />
+					<span class="comments">// 2022-06-01</span><br />
+					<span>第一次坐你的副驾，被你接送</span><br />
+					<span>我们第一次夹娃娃</span><br />
+					<span>我们一起吃海底捞</span><br />
+					<span>第一个和我夹娃娃的女生是你</span><br />
+					<span class="comments">// 2022-06-03</span><br />
+					<span>早上5点钟将你吵醒</span><br />
+					<span>明明该道歉的人是我</span><br />
+					<span>但你居然先说抱歉</span><br />
+					<span>这么好的女孩儿被我遇见了</span><br />
+					<span>我们第一次在江边散步</span><br />
+					<span>记得你脚还起泡</span><br />
+					<span>后来知道你还来大姨妈了</span><br />
+					<span>真的有点心疼</span><br />
+					<span>在你的内心我是个撒娇软妹，你还很喜欢，感觉自己的脸都红了</span><br />
+					<span>你还想捏捏我的脸，有种被调戏的感觉</span><br />
+					<span class="comments">// 2022-06-04</span><br />
+					<span>我们又一起去丁海钧家玩</span><br />
+					<span>虽然你这次没有一起玩桌游，但有你在身边就好</span><br />
+					<span>晚上真的去参加你们的家宴，虽然只是以见我的名义来办70大寿</span><br />
+					<span>有点生气又有点紧张，也不和你商量商量</span><br />
+					<span class="comments">// 2022-06-06</span><br />
+					<span>大早上收到你的微信，昨晚梦见在捏我的脸，被你撩到了</span><br />
+					<span>知道一个好好听的称呼-猪猪，以后就叫你猪猪啦~</span><br />
+					<span class="comments">// 2022-06-07</span><br />
+					<span>你说叫我陈大宝贝耶~</span><br />
+					<span class="comments">// 2022-06-08</span><br />
+					<span>我们一起吃麦当劳儿童餐</span><br />
+					<span>感觉你像个小女孩一样，喜欢送的玩具，好可爱</span><br />
+					<span>没忍住第一次摸了摸你头还有辫子</span><br />
+					<span>我们又一起看电影《密室逃生2》</span><br />
+					<span>你愿意陪我看你已经看过的电影，真的很开心</span><br />
+					<span class="comments">// 2022-06-12</span><br />
+					<span>我们第一次步行去吃早餐</span><br />
+					<span>一直想牵你的手</span><br />
+					<span>到最后才鼓起勇气牵起了你的手</span><br />
+					<span>真的很紧张很紧张</span><br />
+					<span>只牵了短短一秒钟就松开了</span><br />
+					<span class="comments">// 2022-06-13</span><br />
+					<span>"我一个人能抵你们一个群的那几个"</span><br />
+					<span>好想和你在一起</span><br />
+					<span class="comments">// 2022-06-14</span><br />
+					<span>收到"爱你，挂了"的表情包</span><br />
+					<span>要是再不懂，我就是大傻子啦~</span><br />
+					<span>决定了明天表白!订花!</span><br />
+					<span class="comments">// 2022-06-15</span><br />
+					<span>表白成功啦!</span><br />
+					<span>我们在一起啦!</span><br />
+					<span>好激动，睡不着，有种做梦的感觉</span><br />
+					<span class="comments">// 2022-06-16</span><br />
+					<span>昨晚是一场梦嘛</span><br />
+					<span>如果是梦，我希望永远都不要醒来</span><br />
+					<span>我们第一次拥抱</span><br />
+					<span>十指相扣地散步</span><br />
+					<span>让我感觉这不是梦，是真实的</span><br />
+					<span>我感觉自己好幸运能遇见你</span><br />
+					<span class="comments">// 2022-06-17</span><br />
+					<span>我们一起追剧</span><br />
+					<span class="comments">// 2022-06-19</span><br />
+					<span>你第一次主动牵我的手</span><br />
+					<span class="comments">// 2022-06-26</span><br />
+					<span>第一次亲了你的脸~</span><br />
+					<span class="comments">// 2022-07-01</span><br />
+					<span>我们初吻啦~</span><br />
+					<span class="comments">// 2022-07-02</span><br />
+					<span>我们一起去常州恐龙园玩</span><br />
+					<span>我们第一次住在一起</span><br />
+					<span class="comments">// 2022-07-10</span><br />
+					<span>我们一起回我奶奶家，我比你还紧张呢</span><br />
+					<span class="comments">// 2022-07-15</span><br />
+					<span>我们一起回我外婆家</span><br />
+					<span>我爸专门为你做了从未做过的菜</span><br />
+					<span>我都有点吃醋了</span><br />
+					<span class="comments">// 2022-07-16</span><br />
+					<span>第一次和你过生日</span><br />
+					<span>订了猪猪专属蛋糕</span><br />
+					<span>希望可以陪你度过以后的每一个生日</span><br />
+					<span>明明是你生日</span><br />
+					<span>你却送我情侣装还有一套衣服</span><br />
+					<span>我也好想给你买一套衣服啊</span><br />
+					<span class="comments">// 2022-07-17</span><br />
+					<span>又送我情侣鞋，好感动</span><br />
+					<span class="comments">// 2022-07-20</span><br />
+					<span>第一次去你家吃饭</span><br />
+					<span>突然叫我去，搞得我有点措手不及，激动紧张</span><br />
+					<span class="comments">// 2022-07-22</span><br />
+					<span>"每天都不错"</span><br />
+					<span>是跟我在一起的每一天嘛</span><br />
+					<span>又去你家吃饭耶~开心</span><br />
+					<span class="comments">// 2022-07-23</span><br />
+					<span>我们一起去苏州参加你大学室友的婚礼</span><br />
+					<span>没有收我请客的红包，还在室友面前说是我请的</span><br />
+					<span>一半的份子钱也不让出</span><br />
+					<span>我是有多幸运才能遇见这么好的你</span><br />
+					<span class="comments">// 2022-07-24</span><br />
+					<span>看见你当伴娘</span><br />
+					<span>上台拿捧花的时候</span><br />
+					<span>就在想我们会有未来嘛</span><br />
+					<span class="comments">// 2022-07-25</span><br />
+					<span>我忍不住问了</span><br />
+					<span>"你的未来有我嘛"</span><br />
+					<span>当你毫不犹豫地说出"有我"的时候</span><br />
+					<span>那一刻仿佛世界只有你和我</span><br />
+					<span>一切都安静了</span><br />
+					<span>我的心也静了下来</span><br />
+					<span>这种感觉真的太美好了</span><br />
+					<span>你是我的初恋也是我的唯一</span><br />
+					<span class="comments">// 2022-07-26</span><br />
+					<span>穿着你送的衣服和裤子</span><br />
+					<span>看着你在厨房忙碌的身影</span><br />
+					<span>感觉到幸福和幸运伴随着我</span><br />
+					<span>回头朝我笑起来的那一刻，真的好美</span><br />
+					<span>一定会尽自己最大的努力给你想要的幸福</span><br />
+					<span class="comments">// 2022-07-27</span><br />
+					<span>原来我在你那里是特别的存在，你也天天想我呀</span><br />
+					<span class="comments">// 2022-07-28</span><br />
+					<span>"什么样的我你都爱耶"</span><br />
+					<span>听见你说这句话，我想立刻马上抱住你</span><br />
+					<span>要去你家吃饭，但加班到6点多</span><br />
+					<span>明明晚了，但还是去了</span><br />
+					<span>"为什么还是想去"</span><br />
+					<span>"因为那里有我想见的人啊"</span><br />
+					<span>我有两个愿望：你在我身边，我在你身边</span><br />
+					<span class="comments">// 2022-07-29</span><br />
+					<span>让你心烦不开心了</span><br />
+					<span>都怪我没事找事</span><br />
+					<span>看见你不开心，我也不开心</span><br />
+					<span>以后买给你用的东西，一定会跟你商量</span><br />
+					<span class="comments">// 2022-07-30</span><br />
+					<span>见你家亲戚，还加入家人群</span><br />
+					<span>跟舅舅们聊天很愉快，好想喝一杯</span><br />
+					<span>但你没让，感受到你对我的关心和在乎</span><br />
+					<span>一定会好好珍惜你，爱护你，不让你受一点委屈</span><br />
+					<span class="comments">// 2022-07-31</span><br />
+					<span>你第一次主动吻我</span><br />
+					<span>我的人我的心都是你的</span><br />
+					<span>向你吐露心声</span><br />
+					<span>我最大的毛病就是期待太多</span><br />
+					<span>但你愿意陪我做浪漫的事，真的好幸福</span><br />
+					<span class="comments">// 2022-08-01</span><br />
+					<span>"想让你也像我一样开心满足呀"</span><br />
+					<span>简简单单，单单纯纯的你让我好爱</span><br />
+					<span class="comments">// 2022-08-02</span><br />
+					<span>第一次煮红汤面给你吃</span><br />
+					<span>虽然做的不好，但你还是全部吃完了</span><br />
+					<span>我会努力学做饭的</span><br />
+					<span>送我情侣杯耶~</span><br />
+					<span class="comments">// 2022-08-04</span><br />
+					<span>今天我们第一次过七夕~</span><br />
+					<span>猪猪大宝贝~七夕快乐~</span><br />
+					<span class="keyword">我们的爱情故事还在继续~</span><br />
+					<span class="keyword">我希望在我坚定地选择你时</span><br />
+					<span class="keyword">你也能坚定地选择我</span><br />
+					<span class="keyword">希望这次不是我想得美</span><br />
+					<span class="keyword">最后我想对你说：</span><br />
+					<span class="keyword">"猪猪大宝贝~我爱你"</span><br />
+					<br /><br /><br />
+				</div>
+			</div>
+			<!-- <div id="copyright">Copyright © 2022 <a href="https://yimoxiaohan.github.io">https://yimoxiaohan.github.io/</a> 2022-2022</div> -->
+		</div>
 
-    <script type="text/javascript">
-      window.addEventListener('beforeunload', function (e) {
-        window.scrollTo(0, 0)
-      })
-      var offsetX = $('#loveHeart').width() / 2
-      var offsetY = $('#loveHeart').height() / 2 - 55
-      var together = new Date()
-      together.setFullYear(2022, 5, 15)
-      together.setHours(20)
-      together.setMinutes(34)
-      together.setSeconds(13)
-      together.setMilliseconds(14)
+		<script type="text/javascript">
+			window.addEventListener('beforeunload', function (e) {
+				window.scrollTo(0, 0)
+			})
+			var offsetX = $('#loveHeart').width() / 2
+			var offsetY = $('#loveHeart').height() / 2 - 55
+			var together = new Date()
+			together.setFullYear(2022, 5, 15)
+			together.setHours(20)
+			together.setMinutes(34)
+			together.setSeconds(13)
+			together.setMilliseconds(14)
 
-      if (!document.createElement('canvas').getContext) {
-        var msg = document.createElement('div')
-        msg.id = 'errorMsg'
-        msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"
-        document.body.appendChild(msg)
-        $('#code').css('display', 'none')
-        // $('#copyright').css('position', 'absolute')
-        // $('#copyright').css('bottom', '10px')
-        document.execCommand('stop')
-      } else {
-        startHeartAnimation()
+			if (!document.createElement('canvas').getContext) {
+				var msg = document.createElement('div')
+				msg.id = 'errorMsg'
+				msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"
+				document.body.appendChild(msg)
+				$('#code').css('display', 'none')
+				// $('#copyright').css('position', 'absolute')
+				// $('#copyright').css('bottom', '10px')
+				document.execCommand('stop')
+			} else {
+				startHeartAnimation()
 
-        timeElapse(together)
-        setInterval(function () {
-          timeElapse(together)
-        }, 500)
-        adjustCodePosition()
-        $('#code').css('display', 'none')
-        setTimeout(function () {
-          $('#code').css('display', 'block')
-          $('#code').typewriter()
-        }, 11000)
-      }
-    </script>
-  </body>
+				timeElapse(together)
+				setInterval(function () {
+					timeElapse(together)
+				}, 500)
+				adjustCodePosition()
+				$('#code').css('display', 'none')
+				setTimeout(function () {
+					$('#code').css('display', 'block')
+					$('#code').typewriter()
+				}, 11000)
+			}
+		</script>
+	</body>
 </html>
