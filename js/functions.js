@@ -72,10 +72,9 @@ function startHeartAnimation() {
     }
   }, interval)
 }
-
+let scrollTop = 0
 ;(function ($) {
   $.fn.typewriter = function () {
-    let scrollTop = 0
     this.each(function () {
       var $ele = $(this),
         str = $ele.html(),
@@ -84,23 +83,28 @@ function startHeartAnimation() {
       var timer = setInterval(function () {
         var current = str.substr(progress, 1)
         if (current == '<') {
+          let start = progress
           progress = str.indexOf('>', progress) + 1
+          if (str.substring(start + 1, progress - 1) === 'br') {
+            scrollTop += 50
+            $('html, body').animate({ scrollTop }, 1000)
+          }
         } else {
           progress++
-          // scrollTop += 50
-          // $('html, body').animate({ scrollTop }, 1000)
         }
         $ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''))
         if (progress >= str.length) {
           clearInterval(timer)
         }
-
-        // document.body.scrollTop += 50
       }, 75)
     })
     return this
   }
 })(jQuery)
+
+window.onscroll = function () {
+  scrollTop = document.documentElement.scrollTop
+}
 
 function timeElapse(date) {
   var current = Date()
